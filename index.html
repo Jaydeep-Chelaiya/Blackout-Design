@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-   Template:   Waldo - Responsive HTML5 Portfolio Website Template
-   Author:     Themetorium
-   URL:        http://themetorium.net
-   Notes:		You are free to use prepared helper classes to customize your website. Look into "helper.css" file for more info.  
--->
-
 <html lang="en">
   <head>
     <!-- Title -->
@@ -54,43 +47,14 @@
   </head>
 
   <body>
-    <!-- Begin global search (simple) 
-		==================================
-		* Use class "gl-search-dark" to enable global search dark style.
-		-->
-    <div id="global-search" class="gl-s">
-      <!-- Begin global search close button -->
-      <div class="global-search-close-wrap">
-        <a href="#0" class="global-search-close" title="Close">
-          <i class="fas fa-close"></i>
-        </a>
-      </div>
-      <!-- End global search close button -->
-
-      <!-- Begin global search form -->
-      <form id="global-search-form" method="get" action="search-results-2.html">
-        <input type="text" class="form-control" id="global-search-input" name="search" placeholder="Type your keywords..." />
-      </form>
-      <!-- End global search form -->
-    </div>
-    <!-- End global search -->
-
-    <!-- ===================
-		///// Begin header /////
-		==================== -->
+    <!-- =================== Begin header ==================== -->
     <div id="header">
-      <!-- Begin logo
-			================ -->
+      <!-- Begin logo -->
       <div id="logo">
         <a href="index.html"><img src="assets/img/blackout-design-logo.svg" title="Home" alt="logo" /></a>
       </div>
       <!-- End logo -->
 
-      <!-- =================
-			///// Begin menu /////
-			======================
-			* Use class "slide-left", "slide-left-half", "slide-right", "slide-right-half", "slide-top", "slide-bottom" or "zoom-in" to change menu effect.
-			-->
       <nav id="menu" class="menu slide-right-half bg-image" style="background-image: url(assets/img/misc/menu-bg-1.jpg); background-position: 50% 50%">
         <!-- Element cover -->
         <div class="cover bg-transparent-5-dark"></div>
@@ -103,76 +67,16 @@
             <div class="menu-nav">
               <ul class="menu-list">
                 <li class="has-children active">
-                  <a href="#0" class="sub-menu-trigger">Home</a>
-                  <ul class="sub-menu">
-                    <li><a href="index.html">Home v.1</a></li>
-                    <li><a href="index-2.html">Home v.2</a></li>
-                  </ul>
+                  <a href="index.html" class="sub-menu-trigger">Home</a>
                 </li>
                 <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">About</a>
-                  <ul class="sub-menu">
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="about-me.html">About Me</a></li>
-                    <li><a href="team.html">The Team</a></li>
-                  </ul>
+                  <a href="about-us.html" class="sub-menu-trigger">About Us</a>
                 </li>
                 <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Portfolio</a>
-                  <ul class="sub-menu">
-                    <li><a href="portfolio-list.html">Portfolio List v.1</a></li>
-                    <li><a href="portfolio-list-2.html">Portfolio List v.2</a></li>
-                    <li><a href="portfolio-single-1.html">Single Item v.1</a></li>
-                    <li><a href="portfolio-single-2.html">Single Item v.2</a></li>
-                    <li><a href="portfolio-single-3.html">Single Item v.3</a></li>
-                    <li><a href="portfolio-single-4.html">Single Item v.4</a></li>
-                    <li><a href="portfolio-single-5.html">Single Item v.5</a></li>
-                    <li><a href="portfolio-single-6.html">Single Item v.6</a></li>
-                  </ul>
+                  <a href="portfolio/" class="sub-menu-trigger">Portfolio</a>
                 </li>
                 <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Articles</a>
-                  <ul class="sub-menu">
-                    <li><a href="blog-list-1.html">Blog List v.1</a></li>
-                    <li><a href="blog-list-2.html">Blog List v.2</a></li>
-                    <li><a href="blog-single.html">Blog Post No Sidebar</a></li>
-                    <li><a href="blog-single-sidebar-left.html">Blog Post Sidebar Left</a></li>
-                    <li><a href="blog-single-sidebar-right.html">Blog Post Sidebar Right</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Gallery</a>
-                  <ul class="sub-menu">
-                    <li><a href="gallery-list.html">Gallery List v.1</a></li>
-                    <li><a href="gallery-list-2.html">Gallery List v.2</a></li>
-                    <li><a href="gallery-single.html">Gallery Single v.1</a></li>
-                    <li><a href="gallery-single-2.html">Gallery Single v.2</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Shop</a>
-                  <ul class="sub-menu">
-                    <li><a href="shop-list.html">Shop List</a></li>
-                    <li><a href="shop-single.html">Single Product</a></li>
-                    <li><a href="shop-cart.html">Shoping Cart</a></li>
-                    <li><a href="shop-checkout.html">Checkout</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Contact</a>
-                  <ul class="sub-menu">
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="contact-simple.html">Contact Simple</a></li>
-                  </ul>
-                </li>
-                <li class="has-children">
-                  <a href="#0" class="sub-menu-trigger">Pages</a>
-                  <ul class="sub-menu">
-                    <li><a href="page-dummy.html">Dummy Page v.1</a></li>
-                    <li><a href="page-dummy-2.html">Dummy Page v.2</a></li>
-                    <li><a href="search-results.html">Search Results v.1</a></li>
-                    <li><a href="search-results-2.html">Search Results v.2</a></li>
-                  </ul>
+                  <a href="contact.html" class="sub-menu-trigger">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -188,22 +92,19 @@
                 <div class="social-buttons">
                   <ul>
                     <li>
-                      <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/blackoutdesign.in/" class="btn btn-primary btn-link" target="_blank" title="Follow us on instagram"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on twitter"><i class="fab fa-twitter"></i></a>
+                      <a href="http://www.facebook.com/blackoutdesign.in" class="btn btn-primary btn-link" target="_blank" title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on dribbble"><i class="fab fa-dribbble"></i></a>
+                      <a href="https://www.linkedin.com/company/blackoutdesign/" class="btn btn-primary btn-link" target="_blank" title="Follow us on linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                     <li>
                       <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on behance"><i class="fab fa-behance"></i></a>
                     </li>
                     <li>
-                      <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on linkedin"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on youtube"><i class="fab fa-youtube"></i></a>
+                      <a href="https://in.pinterest.com/weblackoutdesign/" class="btn btn-primary btn-link" target="_blank" title="Follow us on youtube"><i class="fab fa-pinterest-p"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -248,16 +149,6 @@
             </div>
             <!-- End menu trigger -->
           </li>
-
-          <li>
-            <!-- Begin global search trigger -->
-            <div id="global-search-trigger">
-              <a href="#0" class="gst-icon" title="Search...">
-                <i class="fas fa-search"></i>
-              </a>
-            </div>
-            <!-- End global search trigger -->
-          </li>
         </ul>
       </div>
       <!-- End header attriputes -->
@@ -270,45 +161,7 @@
     <div id="body-content">
       <!-- Begin content container -->
       <div id="content-container">
-        <!-- ==============================
-				///// Begin intro (slideshow) /////
-				=============================== -->
         <section id="intro" class="slideshow bg-dark">
-          <!-- Begin content carousel (https://owlcarousel2.github.io/OwlCarousel2/)
-					====================================================================
-					* Use class "nav-outside" for outside nav.
-					* Use class "nav-outside-top" for outside top nav.
-					* Use class "nav-bottom-right" for bottom right nav.
-					* Use class "nav-rounded" for rounded nav.
-					* Use class "dots-outside" for outside dots.
-					* Use class "dots-left" or "dots-right" to align dots.
-					* Use class "dots-rounded" for rounded dots.
-					* Use class "owl-mousewheel" to enable mousewheel support.
-					* Available carousel data attributes:
-							data-items="5".......................(items visible on desktop)
-							data-tablet-landscape="4"............(items visible on mobiles)
-							data-tablet-portrait="3".............(items visible on mobiles)
-							data-mobile-landscape="2"............(items visible on tablets)
-							data-mobile-portrait="1".............(items visible on tablets)
-							data-loop="true".....................(true/false)
-							data-margin="10".....................(space between items)
-							data-center="true"...................(true/false)
-							data-start-position="0"..............(item start position)
-							data-animate-in="fadeIn".............(fade-in animation)
-							data-animate-out="fadeOut"...........(fade-out animation)
-							data-mouse-drag="false"..............(true/false)
-							data-touch-drag="false"..............(true/false)
-							data-autoheight="true"...............(true/false)
-							data-autoplay="true".................(true/false)
-							data-autoplay-timeout="5000".........(milliseconds)
-							data-autoplay-hover-pause="true".....(true/false)
-							data-autoplay-speed="800"............(milliseconds)
-							data-drag-end-speed="800"............(milliseconds)
-							data-nav="true"......................(true/false)
-							data-nav-speed="800".................(milliseconds)
-							data-dots="false"....................(true/false)
-							data-dots-speed="800"................(milliseconds)
-					-->
           <div class="owl-carousel cursor-grab fade-out-scroll-5 nav-bottom-right" data-items="1" data-dots="false" data-nav="true">
             <!-- Begin carousel item 
 						========================= -->
@@ -398,11 +251,11 @@
 								-->
                 <div class="isotope-item iso-height-2">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-2.jpg); background-position: 50% 50%">
-                    <div class="pli-hover">
+                  <a href="portfolio/the-fruity-fuel.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/the-fruity-fuel/the-fruity-fuel-main-image.jpg); background-position: 50% 50%">
+                    <div class="pli-hover pli-hover-style-1">
                       <div class="pli-caption">
-                        <div><h2 class="pli-title">Beer Six Back</h2></div>
-                        <div><span class="pli-category">Print</span></div>
+                        <div><h2 class="pli-title">The Fruity Fuel</h2></div>
+                        <div><span class="pli-category">Branding, Print</span></div>
                       </div>
                       <div class="pli-arrow"></div>
                     </div>
@@ -418,8 +271,8 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-2.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-1.jpg); background-position: 50% 50%">
-                    <div class="pli-hover">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/the-fruity-fuel/the-fruity-fuel-img-02.jpg); background-position: 50% 50%">
+                    <div class="pli-hover pli-hover-style-2">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Sushi Bar</h2></div>
                         <div><span class="pli-category">Print, Motion</span></div>
@@ -438,8 +291,8 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-3.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-3.jpg); background-position: 50% 50%">
-                    <div class="pli-hover">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/the-fruity-fuel/the-fruity-fuel-img-03.jpg); background-position: 50% 50%">
+                    <div class="pli-hover pli-hover-style-3">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Armenian Inventors</h2></div>
                         <div><span class="pli-category">Print</span></div>
@@ -458,8 +311,8 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-4.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-5.jpg); background-position: 50% 50%">
-                    <div class="pli-hover">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/the-fruity-fuel/the-fruity-fuel-img-05.jpg); background-position: 50% 50%">
+                    <div class="pli-hover pli-hover-style-4">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">The 13th High Fest</h2></div>
                         <div><span class="pli-category">Print</span></div>
@@ -478,8 +331,8 @@
 								-->
                 <div class="isotope-item iso-height-2">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-5.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-4.jpg); background-position: 50% 50%">
-                    <div class="pli-hover">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-4.jpg); background-position: 50% 50%">
+                    <div class="pli-hover pli-hover-style-5">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Prometey Bank Annual Report 2011</h2></div>
                         <div><span class="pli-category">Web Design, Motion</span></div>
@@ -498,7 +351,7 @@
 								-->
                 <div class="isotope-item iso-height-2">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-2.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-8.jpg); background-position: 50% 50%">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-8.jpg); background-position: 50% 50%">
                     <div class="pli-hover">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Metarez Lasminar</h2></div>
@@ -518,7 +371,7 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-6.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-7.jpg); background-position: 50% 50%">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-7.jpg); background-position: 50% 50%">
                     <div class="pli-hover">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Day &amp; Night</h2></div>
@@ -538,7 +391,7 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-3.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-9.jpg); background-position: 50% 50%">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-9.jpg); background-position: 50% 50%">
                     <div class="pli-hover">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Altimos Tereck</h2></div>
@@ -558,7 +411,7 @@
 								-->
                 <div class="isotope-item iso-height-1">
                   <!-- Begin portfolio list item -->
-                  <a href="portfolio-single-4.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-10.jpg); background-position: 50% 50%">
+                  <a href="portfolio-single-1.html" class="portfolio-list-item bg-image" style="background-image: url(assets/img/porfolio/portfolio-10.jpg); background-position: 50% 50%">
                     <div class="pli-hover">
                       <div class="pli-caption">
                         <div><h2 class="pli-title">Zuula Maiden</h2></div>
@@ -602,7 +455,7 @@
             <div class="col-md-4 text-center">
               <!-- Begin footer logo -->
               <div class="footer-logo margin-top-40 margin-bottom-40">
-                <a href="index.html"><img src="assets/img/logo-light.png" title="Home" alt="logo" /></a>
+                <a href="index.html"><img src="assets/img/blackout-design-logo.svg" title="Home" alt="logo" /></a>
               </div>
               <!-- End footer logo -->
             </div>
@@ -613,22 +466,19 @@
               <div class="social-buttons margin-bottom-15">
                 <ul>
                   <li>
-                    <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/blackoutdesign.in/" class="btn btn-primary btn-link" target="_blank" title="Follow us on instagram"><i class="fab fa-instagram"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="http://www.facebook.com/blackoutdesign.in" class="btn btn-primary btn-link" target="_blank" title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on dribbble"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://www.linkedin.com/company/blackoutdesign/" class="btn btn-primary btn-link" target="_blank" title="Follow us on linkedin"><i class="fab fa-linkedin-in"></i></a>
                   </li>
                   <li>
                     <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on behance"><i class="fab fa-behance"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on linkedin"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" class="btn btn-primary btn-link" target="_blank" title="Follow us on youtube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://in.pinterest.com/weblackoutdesign/" class="btn btn-primary btn-link" target="_blank" title="Follow us on youtube"><i class="fab fa-pinterest-p"></i></a>
                   </li>
                 </ul>
               </div>
@@ -644,10 +494,7 @@
               <!-- End subscribe form -->
 
               <!-- Begin copyright -->
-              <div class="copyright">
-                Copyright 2016 / All rights reserved <br />
-                Designed by <a target="_blank" href="http://themeforest.net/user/themetorium/portfolio">Themetorium</a>
-              </div>
+              <div class="copyright">Copyright 2023 / All Rights Reserved.</div>
               <!-- End copyright -->
             </div>
             <!-- /.col -->

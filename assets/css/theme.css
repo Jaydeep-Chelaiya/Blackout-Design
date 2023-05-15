@@ -366,8 +366,8 @@ p {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  font-size: 30px;
-  line-height: 1.5;
+  font-size: 40px;
+  line-height: 1.55;
   color: #fff;
 }
 @media (max-width: 922px) {
@@ -1990,6 +1990,21 @@ h6 {
 }
 .portfolio-list-item:hover .pli-hover {
   opacity: 0.94;
+}
+.pli-hover-style-1 {
+  background-color: #ff9867;
+}
+.pli-hover-style-2 {
+  background-color: #87f3b5;
+}
+.pli-hover-style-3 {
+  background-color: #a4adfa;
+}
+.pli-hover-style-4 {
+  background-color: #d8a4fd;
+}
+.pli-hover-style-5 {
+  background-color: #feffaf;
 }
 
 /* portfolio list item caption */
@@ -6792,7 +6807,7 @@ input.cart-plus-minus-box:focus {
 /* position bottom */
 .owl-carousel .cc-caption.bottom-left {
   bottom: 10%;
-  left: 5%;
+  left: 3%;
   text-align: left;
 }
 @media (max-width: 768px) {
@@ -9065,6 +9080,7 @@ input#footer-subscribe {
   margin: 60px 0;
 }
 .footer-logo img {
+  width: 200px;
 }
 
 /* fixed footer (no effect on small devices) */
